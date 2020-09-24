@@ -20,5 +20,6 @@ for (const button of buttons) {
     } else {
       screen.textContent = screen.textContent + e.target.dataset.key;
     }
+    
   });
 }
